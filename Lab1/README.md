@@ -1,3 +1,3 @@
 # PatternMining1
 
-abc
+-The dataset "bank.csv" has 4521 transactions with 17 attributes, we are
