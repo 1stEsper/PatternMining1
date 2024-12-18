@@ -1,0 +1,209 @@
+support	itemsets	tiles	is_maximal	is_closed	is_generator
+0.5410307454103075	frozenset({'age_middle-aged'})	0.5410307454103075	False	False	True
+0.3326697633266976	frozenset({'age_senior'})	0.3326697633266976	False	False	True
+0.32625525326255256	frozenset({'job_manual-labor'})	0.32625525326255256	False	False	True
+0.48993585489935854	frozenset({'job_white-collar'})	0.48993585489935854	False	False	True
+0.6186684361866843	frozenset({'marital_married'})	0.6186684361866843	False	False	True
+0.26454324264543244	frozenset({'marital_single'})	0.26454324264543244	False	False	True
+0.5100641451006415	frozenset({'education_secondary'})	0.5100641451006415	False	False	True
+0.298606502986065	frozenset({'education_tertiary'})	0.298606502986065	False	False	True
+0.9831895598318956	frozenset({'credit_no'})	0.9831895598318956	False	False	True
+0.8506967485069675	frozenset({'balance_low'})	0.8506967485069675	False	False	True
+0.43397478433974784	frozenset({'housing_no'})	0.43397478433974784	False	False	True
+0.5660252156602521	frozenset({'housing_yes'})	0.5660252156602521	False	False	True
+0.8471577084715771	frozenset({'loan_no'})	0.8471577084715771	False	False	True
+0.8847600088476001	frozenset({'subscribed_term_d_no'})	0.8847600088476001	False	False	True
+0.2955098429550984	frozenset({'age_middle-aged', 'job_white-collar'})	0.5910196859101968	False	False	True
+0.3236009732360097	frozenset({'age_middle-aged', 'marital_married'})	0.6472019464720195	False	False	True
+0.2817960628179606	frozenset({'education_secondary', 'age_middle-aged'})	0.5635921256359212	False	False	True
+0.5326255253262553	frozenset({'credit_no', 'age_middle-aged'})	1.0652510506525106	False	False	True
+0.45808449458084494	frozenset({'age_middle-aged', 'balance_low'})	0.9161689891616899	False	False	True
+0.3459411634594116	frozenset({'housing_yes', 'age_middle-aged'})	0.6918823269188232	False	False	True
+0.45874806458748063	frozenset({'loan_no', 'age_middle-aged'})	0.9174961291749613	False	False	True
+0.4877239548772396	frozenset({'subscribed_term_d_no', 'age_middle-aged'})	0.9754479097544791	False	False	True
+0.25127184251271845	frozenset({'age_senior', 'marital_married'})	0.5025436850254369	True	True	True
+0.3266976332669763	frozenset({'credit_no', 'age_senior'})	0.6533952665339526	False	False	True
+0.2840079628400796	frozenset({'age_senior', 'balance_low'})	0.5680159256801592	False	False	True
+0.27715107277151074	frozenset({'loan_no', 'age_senior'})	0.5543021455430215	False	False	True
+0.294182702941827	frozenset({'subscribed_term_d_no', 'age_senior'})	0.588365405883654	False	False	True
+0.32116788321167883	frozenset({'credit_no', 'job_manual-labor'})	0.6423357664233577	False	False	True
+0.2749391727493917	frozenset({'job_manual-labor', 'balance_low'})	0.5498783454987834	False	False	True
+0.2725060827250608	frozenset({'loan_no', 'job_manual-labor'})	0.5450121654501217	False	False	True
+0.29949126299491263	frozenset({'job_manual-labor', 'subscribed_term_d_no'})	0.5989825259898253	False	False	True
+0.27294846272948464	frozenset({'job_white-collar', 'marital_married'})	0.5458969254589693	False	False	True
+0.48219420482194203	frozenset({'credit_no', 'job_white-collar'})	0.9643884096438841	False	False	True
+0.41716434417164344	frozenset({'balance_low', 'job_white-collar'})	0.8343286883432869	False	False	True
+0.27184251271842513	frozenset({'housing_yes', 'job_white-collar'})	0.5436850254368503	False	False	True
+0.41694315416943156	frozenset({'loan_no', 'job_white-collar'})	0.8338863083388631	False	False	True
+0.42977217429772174	frozenset({'subscribed_term_d_no', 'job_white-collar'})	0.8595443485954435	False	False	True
+0.31563813315638134	frozenset({'education_secondary', 'marital_married'})	0.6312762663127627	False	False	True
+0.610705596107056	frozenset({'credit_no', 'marital_married'})	1.221411192214112	False	False	True
+0.5268745852687459	frozenset({'balance_low', 'marital_married'})	1.0537491705374917	False	False	True
+0.25923468259234683	frozenset({'housing_no', 'marital_married'})	0.5184693651846937	False	False	True
+0.35943375359433755	frozenset({'housing_yes', 'marital_married'})	0.7188675071886751	False	False	True
+0.5184693651846937	frozenset({'loan_no', 'marital_married'})	1.0369387303693873	False	False	True
+0.557398805573988	frozenset({'subscribed_term_d_no', 'marital_married'})	1.114797611147976	False	False	True
+0.25967706259677065	frozenset({'credit_no', 'marital_single'})	0.5193541251935413	True	True	True
+0.49988940499889406	frozenset({'credit_no', 'education_secondary'})	0.9997788099977881	False	False	True
+0.43331121433311215	frozenset({'education_secondary', 'balance_low'})	0.8666224286662243	False	False	True
+0.31630170316301703	frozenset({'education_secondary', 'housing_yes'})	0.6326034063260341	False	False	True
+0.418049104180491	frozenset({'loan_no', 'education_secondary'})	0.836098208360982	False	False	True
+0.4558725945587259	frozenset({'education_secondary', 'subscribed_term_d_no'})	0.9117451891174518	False	False	True
+0.2948462729484627	frozenset({'credit_no', 'education_tertiary'})	0.5896925458969254	False	False	True
+0.2545896925458969	frozenset({'education_tertiary', 'balance_low'})	0.5091793850917938	False	False	True
+0.2601194426011944	frozenset({'loan_no', 'education_tertiary'})	0.5202388852023888	False	False	True
+0.2559168325591683	frozenset({'education_tertiary', 'subscribed_term_d_no'})	0.5118336651183366	False	False	True
+0.8433974784339748	frozenset({'credit_no', 'balance_low'})	1.6867949568679497	False	False	True
+0.42711789427117897	frozenset({'credit_no', 'housing_no'})	0.8542357885423579	False	False	True
+0.5560716655607166	frozenset({'credit_no', 'housing_yes'})	1.1121433311214333	False	False	True
+0.8358770183587702	frozenset({'loan_no', 'credit_no'})	1.6717540367175403	False	False	True
+0.8699402786994028	frozenset({'credit_no', 'subscribed_term_d_no'})	1.7398805573988056	False	False	True
+0.3764653837646538	frozenset({'housing_no', 'balance_low'})	0.7529307675293077	False	False	True
+0.47423136474231364	frozenset({'housing_yes', 'balance_low'})	0.9484627294846273	False	False	True
+0.7261667772616678	frozenset({'loan_no', 'balance_low'})	1.4523335545233356	False	False	True
+0.7498341074983411	frozenset({'subscribed_term_d_no', 'balance_low'})	1.4996682149966822	False	False	True
+0.37093563370935634	frozenset({'loan_no', 'housing_no'})	0.7418712674187127	False	False	True
+0.36739659367396593	frozenset({'subscribed_term_d_no', 'housing_no'})	0.7347931873479319	False	False	True
+0.4762220747622207	frozenset({'loan_no', 'housing_yes'})	0.9524441495244415	False	False	True
+0.5173634151736342	frozenset({'housing_yes', 'subscribed_term_d_no'})	1.0347268303472683	False	False	True
+0.7414288874142889	frozenset({'loan_no', 'subscribed_term_d_no'})	1.4828577748285778	False	False	True
+0.29086485290864855	frozenset({'credit_no', 'age_middle-aged', 'job_white-collar'})	0.8725945587259456	False	False	True
+0.2503870825038708	frozenset({'balance_low', 'age_middle-aged', 'job_white-collar'})	0.7511612475116125	True	True	True
+0.25436850254368504	frozenset({'loan_no', 'age_middle-aged', 'job_white-collar'})	0.7631055076310551	False	False	True
+0.2612253926122539	frozenset({'subscribed_term_d_no', 'age_middle-aged', 'job_white-collar'})	0.7836761778367618	False	False	True
+0.3200619332006193	frozenset({'credit_no', 'age_middle-aged', 'marital_married'})	0.9601857996018579	False	False	True
+0.27405441274054415	frozenset({'age_middle-aged', 'balance_low', 'marital_married'})	0.8221632382216324	False	False	True
+0.2691882326918823	frozenset({'loan_no', 'age_middle-aged', 'marital_married'})	0.8075646980756469	False	False	True
+0.2955098429550984	frozenset({'subscribed_term_d_no', 'age_middle-aged', 'marital_married'})	0.8865295288652952	False	False	True
+0.27670869276708693	frozenset({'credit_no', 'education_secondary', 'age_middle-aged'})	0.8301260783012607	False	False	True
+0.2581287325812873	frozenset({'education_secondary', 'subscribed_term_d_no', 'age_middle-aged'})	0.774386197743862	False	False	True
+0.45299712452997126	frozenset({'credit_no', 'age_middle-aged', 'balance_low'})	1.3589913735899137	False	False	True
+0.3410749834107498	frozenset({'credit_no', 'housing_yes', 'age_middle-aged'})	1.0232249502322495	False	False	True
+0.45321831453218314	frozenset({'loan_no', 'credit_no', 'age_middle-aged'})	1.3596549435965495	False	False	True
+0.48064587480645876	frozenset({'credit_no', 'subscribed_term_d_no', 'age_middle-aged'})	1.4419376244193762	False	False	True
+0.28975890289758904	frozenset({'housing_yes', 'age_middle-aged', 'balance_low'})	0.8692767086927671	False	False	True
+0.39106392391063927	frozenset({'loan_no', 'age_middle-aged', 'balance_low'})	1.1731917717319178	False	False	True
+0.41163459411634595	frozenset({'subscribed_term_d_no', 'age_middle-aged', 'balance_low'})	1.2349037823490379	False	False	True
+0.28909533289095335	frozenset({'loan_no', 'housing_yes', 'age_middle-aged'})	0.86728599867286	False	False	True
+0.3171864631718646	frozenset({'housing_yes', 'age_middle-aged', 'subscribed_term_d_no'})	0.9515593895155938	False	False	True
+0.41008626410086263	frozenset({'loan_no', 'subscribed_term_d_no', 'age_middle-aged'})	1.2302587923025878	False	False	True
+0.2822384428223844	frozenset({'credit_no', 'age_senior', 'balance_low'})	0.8467153284671532	True	True	True
+0.2733908427339084	frozenset({'loan_no', 'credit_no', 'age_senior'})	0.8201725282017251	True	True	True
+0.2888741428887414	frozenset({'credit_no', 'subscribed_term_d_no', 'age_senior'})	0.8666224286662243	True	True	True
+0.25060827250608275	frozenset({'subscribed_term_d_no', 'age_senior', 'balance_low'})	0.7518248175182483	True	True	True
+0.2731696527316965	frozenset({'credit_no', 'job_manual-labor', 'balance_low'})	0.8195089581950896	False	False	True
+0.26874585268745854	frozenset({'loan_no', 'credit_no', 'job_manual-labor'})	0.8062375580623756	True	True	True
+0.2955098429550984	frozenset({'credit_no', 'subscribed_term_d_no', 'job_manual-labor'})	0.8865295288652952	False	False	True
+0.252156602521566	frozenset({'job_manual-labor', 'subscribed_term_d_no', 'balance_low'})	0.7564698075646981	False	False	True
+0.26985180269851805	frozenset({'credit_no', 'job_white-collar', 'marital_married'})	0.8095554080955542	True	True	True
+0.41340411413404116	frozenset({'credit_no', 'balance_low', 'job_white-collar'})	1.2402123424021234	False	False	True
+0.2678610926786109	frozenset({'credit_no', 'housing_yes', 'job_white-collar'})	0.8035832780358327	True	True	True
+0.41163459411634595	frozenset({'loan_no', 'credit_no', 'job_white-collar'})	1.2349037823490379	False	False	True
+0.42269409422694093	frozenset({'credit_no', 'subscribed_term_d_no', 'job_white-collar'})	1.268082282680823	False	False	True
+0.3578854235788542	frozenset({'loan_no', 'balance_low', 'job_white-collar'})	1.0736562707365627	False	False	True
+0.36474231364742316	frozenset({'balance_low', 'subscribed_term_d_no', 'job_white-collar'})	1.0942269409422694	False	False	True
+0.36186684361866844	frozenset({'loan_no', 'subscribed_term_d_no', 'job_white-collar'})	1.0856005308560053	False	False	True
+0.3105507631055076	frozenset({'credit_no', 'education_secondary', 'marital_married'})	0.9316522893165229	False	False	True
+0.26808228268082285	frozenset({'education_secondary', 'balance_low', 'marital_married'})	0.8042468480424685	False	False	True
+0.2552532625525326	frozenset({'loan_no', 'education_secondary', 'marital_married'})	0.7657597876575979	False	False	True
+0.28754700287547	frozenset({'education_secondary', 'subscribed_term_d_no', 'marital_married'})	0.86264100862641	False	False	True
+0.5235567352355673	frozenset({'credit_no', 'balance_low', 'marital_married'})	1.5706702057067021	False	False	True
+0.25613802256138024	frozenset({'credit_no', 'housing_no', 'marital_married'})	0.7684140676841407	True	True	True
+0.35456757354567575	frozenset({'credit_no', 'housing_yes', 'marital_married'})	1.0637027206370273	False	False	True
+0.513160805131608	frozenset({'loan_no', 'credit_no', 'marital_married'})	1.5394824153948239	False	False	True
+0.5500995355009953	frozenset({'credit_no', 'subscribed_term_d_no', 'marital_married'})	1.6502986065029859	False	False	True
+0.30303030303030304	frozenset({'housing_yes', 'balance_low', 'marital_married'})	0.9090909090909092	False	False	True
+0.44414952444149525	frozenset({'loan_no', 'balance_low', 'marital_married'})	1.3324485733244857	False	False	True
+0.47179827471798275	frozenset({'subscribed_term_d_no', 'balance_low', 'marital_married'})	1.4153948241539482	False	False	True
+0.29750055297500555	frozenset({'loan_no', 'housing_yes', 'marital_married'})	0.8925016589250166	False	False	True
+0.33244857332448574	frozenset({'housing_yes', 'subscribed_term_d_no', 'marital_married'})	0.9973457199734572	False	False	True
+0.46250829462508297	frozenset({'loan_no', 'subscribed_term_d_no', 'marital_married'})	1.387524883875249	False	False	True
+0.42866622428666223	frozenset({'credit_no', 'education_secondary', 'balance_low'})	1.2859986728599866	False	False	True
+0.31032957310329573	frozenset({'credit_no', 'education_secondary', 'housing_yes'})	0.9309887193098871	False	False	True
+0.41097102410971026	frozenset({'loan_no', 'credit_no', 'education_secondary'})	1.2329130723291308	False	False	True
+0.44702499447024996	frozenset({'credit_no', 'education_secondary', 'subscribed_term_d_no'})	1.3410749834107498	False	False	True
+0.2636584826365848	frozenset({'education_secondary', 'housing_yes', 'balance_low'})	0.7909754479097544	False	False	True
+0.35832780358327804	frozenset({'loan_no', 'education_secondary', 'balance_low'})	1.0749834107498342	False	False	True
+0.3855341738553417	frozenset({'education_secondary', 'subscribed_term_d_no', 'balance_low'})	1.1566025215660252	False	False	True
+0.2607830126078301	frozenset({'loan_no', 'education_secondary', 'housing_yes'})	0.7823490378234903	False	False	True
+0.29152842291528425	frozenset({'education_secondary', 'housing_yes', 'subscribed_term_d_no'})	0.8745852687458527	False	False	True
+0.36960849369608495	frozenset({'loan_no', 'education_secondary', 'subscribed_term_d_no'})	1.108825481088255	False	False	True
+0.2528201725282017	frozenset({'credit_no', 'balance_low', 'education_tertiary'})	0.7584605175846051	True	True	True
+0.25724397257243975	frozenset({'loan_no', 'credit_no', 'education_tertiary'})	0.7717319177173192	True	True	True
+0.2523777925237779	frozenset({'credit_no', 'subscribed_term_d_no', 'education_tertiary'})	0.7571333775713337	True	True	True
+0.37248396372483966	frozenset({'credit_no', 'housing_no', 'balance_low'})	1.117451891174519	False	False	True
+0.4709135147091352	frozenset({'credit_no', 'housing_yes', 'balance_low'})	1.4127405441274055	False	False	True
+0.7210794072107941	frozenset({'loan_no', 'credit_no', 'balance_low'})	2.1632382216323824	False	False	True
+0.7436407874364078	frozenset({'credit_no', 'subscribed_term_d_no', 'balance_low'})	2.2309223623092236	False	False	True
+0.36717540367175405	frozenset({'loan_no', 'credit_no', 'housing_no'})	1.1015262110152622	False	False	True
+0.36186684361866844	frozenset({'credit_no', 'subscribed_term_d_no', 'housing_no'})	1.0856005308560053	False	False	True
+0.46870161468701615	frozenset({'loan_no', 'credit_no', 'housing_yes'})	1.4061048440610484	False	False	True
+0.5080734350807343	frozenset({'credit_no', 'housing_yes', 'subscribed_term_d_no'})	1.524220305242203	False	False	True
+0.7316965273169653	frozenset({'loan_no', 'credit_no', 'subscribed_term_d_no'})	2.1950895819508958	False	False	True
+0.32404335324043354	frozenset({'loan_no', 'housing_no', 'balance_low'})	0.9721300597213006	False	False	True
+0.3171864631718646	frozenset({'subscribed_term_d_no', 'housing_no', 'balance_low'})	0.9515593895155938	False	False	True
+0.40212342402123424	frozenset({'loan_no', 'housing_yes', 'balance_low'})	1.2063702720637028	False	False	True
+0.43264764432647645	frozenset({'housing_yes', 'balance_low', 'subscribed_term_d_no'})	1.2979429329794294	False	False	True
+0.6317186463171864	frozenset({'loan_no', 'subscribed_term_d_no', 'balance_low'})	1.8951559389515593	False	False	True
+0.30833886308338865	frozenset({'loan_no', 'subscribed_term_d_no', 'housing_no'})	0.9250165892501659	False	False	True
+0.43309002433090027	frozenset({'loan_no', 'housing_yes', 'subscribed_term_d_no'})	1.2992700729927007	False	False	True
+0.25127184251271845	frozenset({'loan_no', 'credit_no', 'age_middle-aged', 'job_white-collar'})	1.0050873700508738	True	True	True
+0.2570227825702278	frozenset({'credit_no', 'subscribed_term_d_no', 'age_middle-aged', 'job_white-collar'})	1.0280911302809113	True	True	True
+0.272063702720637	frozenset({'credit_no', 'age_middle-aged', 'balance_low', 'marital_married'})	1.088254810882548	True	True	True
+0.26697633266976334	frozenset({'loan_no', 'credit_no', 'age_middle-aged', 'marital_married'})	1.0679053306790534	True	True	True
+0.2924131829241318	frozenset({'credit_no', 'subscribed_term_d_no', 'age_middle-aged', 'marital_married'})	1.1696527316965273	True	True	True
+0.2541473125414731	frozenset({'credit_no', 'education_secondary', 'subscribed_term_d_no', 'age_middle-aged'})	1.0165892501658924	True	True	True
+0.2871046228710462	frozenset({'credit_no', 'housing_yes', 'age_middle-aged', 'balance_low'})	1.1484184914841848	False	False	True
+0.38752488387524886	frozenset({'loan_no', 'credit_no', 'age_middle-aged', 'balance_low'})	1.5500995355009954	False	False	True
+0.40743198407431985	frozenset({'credit_no', 'subscribed_term_d_no', 'age_middle-aged', 'balance_low'})	1.6297279362972794	False	False	True
+0.2857774828577748	frozenset({'loan_no', 'credit_no', 'housing_yes', 'age_middle-aged'})	1.1431099314310993	False	False	True
+0.31276266312762663	frozenset({'credit_no', 'housing_yes', 'subscribed_term_d_no', 'age_middle-aged'})	1.2510506525105065	False	False	True
+0.4054412740544127	frozenset({'loan_no', 'credit_no', 'subscribed_term_d_no', 'age_middle-aged'})	1.6217650962176509	False	False	True
+0.2643220526432205	frozenset({'housing_yes', 'age_middle-aged', 'balance_low', 'subscribed_term_d_no'})	1.057288210572882	False	False	True
+0.34748949347489494	frozenset({'loan_no', 'subscribed_term_d_no', 'age_middle-aged', 'balance_low'})	1.3899579738995798	False	False	True
+0.26343729263437293	frozenset({'loan_no', 'housing_yes', 'age_middle-aged', 'subscribed_term_d_no'})	1.0537491705374917	False	False	True
+0.2510506525105065	frozenset({'credit_no', 'subscribed_term_d_no', 'job_manual-labor', 'balance_low'})	1.004202610042026	True	True	True
+0.3554523335545233	frozenset({'loan_no', 'credit_no', 'balance_low', 'job_white-collar'})	1.4218093342180933	False	False	True
+0.36142446361424463	frozenset({'credit_no', 'balance_low', 'subscribed_term_d_no', 'job_white-collar'})	1.4456978544569785	False	False	True
+0.35722185357221853	frozenset({'loan_no', 'credit_no', 'subscribed_term_d_no', 'job_white-collar'})	1.4288874142888741	False	False	True
+0.30833886308338865	frozenset({'loan_no', 'balance_low', 'subscribed_term_d_no', 'job_white-collar'})	1.2333554523335546	False	False	True
+0.26564919265649195	frozenset({'credit_no', 'education_secondary', 'balance_low', 'marital_married'})	1.0625967706259678	True	True	True
+0.2517142225171422	frozenset({'loan_no', 'credit_no', 'education_secondary', 'marital_married'})	1.0068568900685688	True	True	True
+0.28312320283123205	frozenset({'credit_no', 'education_secondary', 'subscribed_term_d_no', 'marital_married'})	1.1324928113249282	True	True	True
+0.30126078301260784	frozenset({'credit_no', 'housing_yes', 'balance_low', 'marital_married'})	1.2050431320504313	False	False	True
+0.44215881442158816	frozenset({'loan_no', 'credit_no', 'balance_low', 'marital_married'})	1.7686352576863527	False	False	True
+0.46870161468701615	frozenset({'credit_no', 'subscribed_term_d_no', 'balance_low', 'marital_married'})	1.8748064587480646	False	False	True
+0.2937403229374032	frozenset({'loan_no', 'credit_no', 'housing_yes', 'marital_married'})	1.1749612917496128	False	False	True
+0.3278035832780358	frozenset({'credit_no', 'housing_yes', 'subscribed_term_d_no', 'marital_married'})	1.3112143331121433	False	False	True
+0.4576421145764211	frozenset({'loan_no', 'credit_no', 'subscribed_term_d_no', 'marital_married'})	1.8305684583056845	False	False	True
+0.2528201725282017	frozenset({'loan_no', 'housing_yes', 'balance_low', 'marital_married'})	1.0112806901128069	False	False	True
+0.2791417827914178	frozenset({'housing_yes', 'subscribed_term_d_no', 'balance_low', 'marital_married'})	1.1165671311656713	False	False	True
+0.39305463393054635	frozenset({'loan_no', 'subscribed_term_d_no', 'balance_low', 'marital_married'})	1.5722185357221854	False	False	True
+0.27405441274054415	frozenset({'loan_no', 'housing_yes', 'subscribed_term_d_no', 'marital_married'})	1.0962176509621766	False	False	True
+0.26144658261446585	frozenset({'credit_no', 'education_secondary', 'housing_yes', 'balance_low'})	1.0457863304578634	True	True	True
+0.3550099535500995	frozenset({'loan_no', 'credit_no', 'education_secondary', 'balance_low'})	1.420039814200398	False	False	True
+0.38155275381552756	frozenset({'credit_no', 'education_secondary', 'subscribed_term_d_no', 'balance_low'})	1.5262110152621102	False	False	True
+0.2563592125635921	frozenset({'loan_no', 'credit_no', 'education_secondary', 'housing_yes'})	1.0254368502543685	True	True	True
+0.2859986728599867	frozenset({'credit_no', 'education_secondary', 'subscribed_term_d_no', 'housing_yes'})	1.1439946914399468	True	True	True
+0.3634151736341517	frozenset({'loan_no', 'credit_no', 'education_secondary', 'subscribed_term_d_no'})	1.4536606945366068	False	False	True
+0.31386861313868614	frozenset({'loan_no', 'education_secondary', 'subscribed_term_d_no', 'balance_low'})	1.2554744525547445	False	False	True
+0.3213890732138907	frozenset({'loan_no', 'credit_no', 'housing_no', 'balance_low'})	1.2855562928555628	False	False	True
+0.314089803140898	frozenset({'credit_no', 'subscribed_term_d_no', 'housing_no', 'balance_low'})	1.256359212563592	False	False	True
+0.39969033399690335	frozenset({'loan_no', 'credit_no', 'housing_yes', 'balance_low'})	1.5987613359876134	False	False	True
+0.42955098429550986	frozenset({'credit_no', 'housing_yes', 'subscribed_term_d_no', 'balance_low'})	1.7182039371820395	False	False	True
+0.6275160362751604	frozenset({'loan_no', 'credit_no', 'subscribed_term_d_no', 'balance_low'})	2.5100641451006416	False	False	True
+0.30546339305463394	frozenset({'loan_no', 'credit_no', 'subscribed_term_d_no', 'housing_no'})	1.2218535722185357	False	False	True
+0.42623313426233134	frozenset({'loan_no', 'credit_no', 'housing_yes', 'subscribed_term_d_no'})	1.7049325370493253	False	False	True
+0.26763990267639903	frozenset({'loan_no', 'subscribed_term_d_no', 'housing_no', 'balance_low'})	1.0705596107055961	False	False	True
+0.36407874364078746	frozenset({'loan_no', 'housing_yes', 'balance_low', 'subscribed_term_d_no'})	1.4563149745631498	False	False	True
+0.2618889626188896	frozenset({'credit_no', 'balance_low', 'housing_yes', 'subscribed_term_d_no', 'age_middle-aged'})	1.309444813094448	True	True	True
+0.3446140234461402	frozenset({'credit_no', 'balance_low', 'loan_no', 'subscribed_term_d_no', 'age_middle-aged'})	1.723070117230701	True	True	True
+0.2605618226056182	frozenset({'credit_no', 'loan_no', 'housing_yes', 'subscribed_term_d_no', 'age_middle-aged'})	1.3028091130280912	True	True	True
+0.3063481530634815	frozenset({'credit_no', 'balance_low', 'job_white-collar', 'loan_no', 'subscribed_term_d_no'})	1.5317407653174075	True	True	True
+0.2514930325149303	frozenset({'credit_no', 'balance_low', 'marital_married', 'loan_no', 'housing_yes'})	1.2574651625746516	True	True	True
+0.2773722627737226	frozenset({'credit_no', 'balance_low', 'marital_married', 'housing_yes', 'subscribed_term_d_no'})	1.386861313868613	True	True	True
+0.39106392391063927	frozenset({'credit_no', 'balance_low', 'marital_married', 'loan_no', 'subscribed_term_d_no'})	1.9553196195531963	True	True	True
+0.27051537270515374	frozenset({'credit_no', 'marital_married', 'loan_no', 'housing_yes', 'subscribed_term_d_no'})	1.3525768635257687	True	True	True
+0.3109931431099314	frozenset({'credit_no', 'balance_low', 'loan_no', 'subscribed_term_d_no', 'education_secondary'})	1.554965715549657	True	True	True
+0.26564919265649195	frozenset({'credit_no', 'balance_low', 'loan_no', 'subscribed_term_d_no', 'housing_no'})	1.3282459632824597	True	True	True
+0.36186684361866844	frozenset({'credit_no', 'balance_low', 'loan_no', 'housing_yes', 'subscribed_term_d_no'})	1.8093342180933423	True	True	True
